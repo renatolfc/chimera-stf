@@ -1,0 +1,15 @@
+\documentclass{minimal}
+
+\usepackage{amsmath,amssymb}
+\usepackage{euler}
+\usepackage{concrete}
+
+\begin{document}
+\begin{align*}
+    \mathcal{L} &= \sum_{t=1}^T \|A_t - U_t V^T\|^2 + \\
+    &+ \beta \sum_{t=1}^T \| C_t -
+U_t W^T\|^2 +\\
+&+ \lambda_1 \left( \|V\|^2 + \|W\|^2 + \sum_{t=1}^T \|U_t\|^2\right) +\\
+&+  \lambda_2 \sum_{t=1}^{T-1} \| U_{t+1} - U_{t}\|^2\,\text{.}
+\end{align*}\label{eq:enhanced-model}
+\end{document}

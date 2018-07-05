@@ -9,6 +9,13 @@ analysis by extracting the latent semantic structure of the network in
 multidimensional form, but in a way that takes into account the temporal
 continuity of these embeddings.
 
+The code in this repo implements the loss function
+
+![Loss function to be minimized](./doc/model.svg)
+
+Once optimization converges or time runs out, it will save the learning
+embeddings in their own files.
+
 # Citing this work
 
 If the code in this repository somehow helps your research, please consider
