@@ -1,6 +1,6 @@
-# Chimera-SMF
+# Chimera-STF
 
-This repository implements the Chimera Shared Matrix Factorizantion (over Time)
+This repository implements the Chimera Shared Matrix Factorization (over Time)
 technique, first introduced in the paper "Temporally Evolving Community Detection
 and Prediction in Content-Centric Networks".
 
