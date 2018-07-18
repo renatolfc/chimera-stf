@@ -16,7 +16,20 @@ The code in this repo implements the loss function
 Once optimization converges or time runs out, it will save the learning
 embeddings in their own files.
 
-# Citing this work
+## Requirements
+
+The code in this repository was written for Python 3 and Tensorflow.
+
+You can install all requirements (provided you have Python 3 and are running
+within a virtualenv) with `pip install -r requirements.txt`.
+
+## Running the code
+
+We have written a small test suite with pytest. You can run a sample prediction
+with a synthetic dataset by calling `py.test` in the repository's root
+directory.
+
+## Citing this work
 
 If the code in this repository somehow helps your research, please consider
 citing the aforementioned paper. A BibTeX entry is provided for you below:
