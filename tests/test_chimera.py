@@ -15,8 +15,8 @@ LATENT_FACTORS = 7
 DATASET = 'synthetic'
 SYNTHETIC_LINKS = 5000
 LABELS = list(sorted(glob.glob(os.path.join(datapath, DATASET, 'labels*'))))
-A_MATRICES = list(sorted(glob.glob(os.path.join(datapath, DATASET, 'A?.mtx'))))
-C_MATRICES = list(sorted(glob.glob(os.path.join(datapath, DATASET, 'C?.mtx'))))
+A_MATRICES = list(sorted(glob.glob(os.path.join(datapath, DATASET, 'A?.mtx*'))))
+C_MATRICES = list(sorted(glob.glob(os.path.join(datapath, DATASET, 'C?.mtx*'))))
 
 assert len(A_MATRICES)
 assert len(C_MATRICES)
