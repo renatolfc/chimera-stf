@@ -1,8 +1,10 @@
 # Chimera-STF
 
 This repository implements the Chimera Shared Matrix Factorization (over Time)
-technique, first introduced in the paper "Temporally Evolving Community Detection
-and Prediction in Content-Centric Networks".
+technique, first introduced in the paper "Temporally Evolving Community
+Detection and Prediction in Content-Centric Networks". A preprint is available
+at [the arXiv](https://arxiv.org/abs/1807.06560)
+[(PDF)](https://arxiv.org/pdf/1807.06560).
 
 This algorithm can simultaneously account for graph links, content, and temporal
 analysis by extracting the latent semantic structure of the network in
