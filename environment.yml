@@ -1,0 +1,7 @@
+name: chimera
+dependencies:
+    - numpy
+    - pandas
+    - scikit-learn
+    - tensorflow
+    - pytest
