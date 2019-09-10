@@ -72,7 +72,7 @@ def save_array(path, array):
     '''
     with open(path, 'wb') as fp:
         for a in array.reshape((-1,)):
-            fp.write('%d ' % a)
+            fp.write(b'%d ' % a)
         # remove last space
         fp.truncate(fp.tell() - 1)
 
